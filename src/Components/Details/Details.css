@@ -1,0 +1,137 @@
+.details{
+    /* border: 3px solid blue; */
+    margin: 50px auto;
+    /* padding: 2rem; */
+    
+}
+h4{
+    color: orange;
+}
+h1{
+    font-weight: bolder;
+}
+.details-text{
+    color: gray;
+}
+
+
+.buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.count-buttons{
+    display: flex;
+    flex-direction: row;
+    /* background-color: lightgray; */
+     
+}
+.minus{
+    padding: 1rem;
+    border: none;
+    background: none;
+    color: orange;
+    font-size: x-large;
+    font-weight: bolder;
+}
+.plus{
+    padding: 1rem;
+    border: none;
+    background: none;
+    color: orange;
+    font-size:x-large;
+    font-weight: bolder;
+}
+ .number{
+    padding: 1rem;
+    font-weight: bolder;
+ }
+
+  
+ .cart-btn-cart{
+    padding : 1rem 5rem;
+    color: white;
+    background-color: darkorange;
+    border: none;
+    font-weight: bolder;
+    border-bottom-left-radius: 1rem;
+    
+    border-top-right-radius: 1rem;
+    
+    border-top-left-radius: 1rem;
+    
+    border-bottom-right-radius: 1rem;
+ }
+
+
+ @media screen and (max-width:780px) {
+
+.details{
+ 
+    margin: 50px 50px;
+    /* padding: 2rem; */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    
+}
+
+.details-text{
+    margin: 0 auto;
+}
+
+.cart-btn-cart{
+    padding : 0.5rem 4.5rem;
+    color: white;
+    background-color: darkorange;
+    font-weight: lighter;
+ 
+ }
+}
+
+
+
+
+@media screen and (max-width:380px) {
+
+    .details{
+
+        max-width: 280px;
+     
+        margin: 50px 50px;
+        /* padding: 2rem; */
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: flex-start;
+        flex-wrap: wrap;
+        
+    }
+    
+    .details-text{
+        margin: 0 auto;
+    }
+    .buttons{
+        display: flex;
+        flex-direction: column;
+    }
+    .count-buttons{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .cart-btn-cart{
+        padding : 0.2rem 3.5rem;
+        color: white;
+        background-color: darkorange;
+        font-weight: lighter;
+        font-size: 10px;
+     
+     }
+    
+        
+     }

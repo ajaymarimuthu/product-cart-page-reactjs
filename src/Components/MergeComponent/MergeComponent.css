@@ -1,0 +1,59 @@
+.merge-component{
+    display: flex;
+  
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+@media screen and (max-width:780px) {
+    .merge-component{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+       
+    /* max-width: 1000px; */
+    margin: 0 auto;
+    }
+    
+    
+}
+
+@media screen and (max-width:780px) {
+    .merge-component{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+       
+    /* max-width: 1000px; */
+    margin: 0 auto;
+    }
+    
+    
+}
+
+@media screen and (max-width:580px) {
+    .merge-component{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+       
+    /* max-width: 1000px; */
+    margin: 20px 50px;
+    }
+    
+    
+}
+
+
+@media screen and (max-width:380px) {
+    .merge-component{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+       
+    /* max-width: 1000px; */
+    margin: 20px 50px;
+    }
+    
+    
+}

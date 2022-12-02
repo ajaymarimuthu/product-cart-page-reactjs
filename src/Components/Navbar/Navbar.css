@@ -1,0 +1,37 @@
+ 
+.container{
+    /* border: 3px solid red; */
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.nav-items{
+    display: flex; 
+    flex-wrap: wrap; 
+    justify-content: flex-start;
+    /* align-items: center; */
+}
+.nav-item{
+    list-style: none;
+    text-decoration: none;
+    margin: 1rem; 
+}
+
+
+.nav-image{
+
+    max-width: 3rem;
+
+}
+
+.cart{
+    max-width: 2rem;
+    max-height: 1rem;
+}
+
+
+.main-item{
+    font-weight: bolder;
+    font-size: 20px;
+}
+ 
